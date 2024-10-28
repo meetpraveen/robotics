@@ -1,0 +1,24 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+creating map_tutorials.egg-info
+writing map_tutorials.egg-info/PKG-INFO
+writing dependency_links to map_tutorials.egg-info/dependency_links.txt
+writing entry points to map_tutorials.egg-info/entry_points.txt
+writing requirements to map_tutorials.egg-info/requires.txt
+writing top-level names to map_tutorials.egg-info/top_level.txt
+writing manifest file 'map_tutorials.egg-info/SOURCES.txt'
+reading manifest file 'map_tutorials.egg-info/SOURCES.txt'
+writing manifest file 'map_tutorials.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/psinha/ros2/packages/map/install/map_tutorials/lib/python3.10/site-packages/map-tutorials.egg-link (link to .)
+Installing map_node script to /home/psinha/ros2/packages/map/install/map_tutorials/lib/map_tutorials
+
+Installed /home/psinha/ros2/packages/map/build/map_tutorials
+running symlink_data
+creating /home/psinha/ros2/packages/map/install/map_tutorials/share/ament_index
+creating /home/psinha/ros2/packages/map/install/map_tutorials/share/ament_index/resource_index
+creating /home/psinha/ros2/packages/map/install/map_tutorials/share/ament_index/resource_index/packages
+symbolically linking /home/psinha/ros2/packages/map/build/map_tutorials/resource/map_tutorials -> /home/psinha/ros2/packages/map/install/map_tutorials/share/ament_index/resource_index/packages
+symbolically linking /home/psinha/ros2/packages/map/build/map_tutorials/package.xml -> /home/psinha/ros2/packages/map/install/map_tutorials/share/map_tutorials

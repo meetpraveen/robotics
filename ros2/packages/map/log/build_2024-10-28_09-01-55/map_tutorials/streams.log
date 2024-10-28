@@ -1,0 +1,17 @@
+[3.007s] Invoking command in '/home/psinha/ros2/packages/map/build/map_tutorials': PYTHONPATH=/home/psinha/ros2/packages/map/build/map_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psinha/ros2/packages/map/install/map_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/psinha/ros2/packages/map/build/map_tutorials/build --no-deps symlink_data
+[4.255s] running develop
+[5.071s] running egg_info
+[5.071s] writing map_tutorials.egg-info/PKG-INFO
+[5.072s] writing dependency_links to map_tutorials.egg-info/dependency_links.txt
+[5.073s] writing entry points to map_tutorials.egg-info/entry_points.txt
+[5.073s] writing requirements to map_tutorials.egg-info/requires.txt
+[5.074s] writing top-level names to map_tutorials.egg-info/top_level.txt
+[5.081s] reading manifest file 'map_tutorials.egg-info/SOURCES.txt'
+[5.084s] writing manifest file 'map_tutorials.egg-info/SOURCES.txt'
+[5.090s] running build_ext
+[5.091s] Creating /home/psinha/ros2/packages/map/install/map_tutorials/lib/python3.10/site-packages/map-tutorials.egg-link (link to .)
+[5.094s] Installing map_node script to /home/psinha/ros2/packages/map/install/map_tutorials/lib/map_tutorials
+[5.096s] 
+[5.096s] Installed /home/psinha/ros2/packages/map/build/map_tutorials
+[5.097s] running symlink_data
+[5.237s] Invoked command in '/home/psinha/ros2/packages/map/build/map_tutorials' returned '0': PYTHONPATH=/home/psinha/ros2/packages/map/build/map_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psinha/ros2/packages/map/install/map_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/psinha/ros2/packages/map/build/map_tutorials/build --no-deps symlink_data

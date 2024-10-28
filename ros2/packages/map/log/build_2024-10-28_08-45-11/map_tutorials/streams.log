@@ -1,0 +1,26 @@
+[3.420s] Invoking command in '/home/psinha/ros2/packages/map/build/map_tutorials': PYTHONPATH=/home/psinha/ros2/packages/map/build/map_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psinha/ros2/packages/map/install/map_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/psinha/ros2/packages/map/build/map_tutorials/build --no-deps symlink_data
+[4.606s] running develop
+[4.611s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.611s]   warnings.warn(
+[5.421s] running egg_info
+[5.422s] creating map_tutorials.egg-info
+[5.422s] writing map_tutorials.egg-info/PKG-INFO
+[5.423s] writing dependency_links to map_tutorials.egg-info/dependency_links.txt
+[5.424s] writing entry points to map_tutorials.egg-info/entry_points.txt
+[5.424s] writing requirements to map_tutorials.egg-info/requires.txt
+[5.425s] writing top-level names to map_tutorials.egg-info/top_level.txt
+[5.426s] writing manifest file 'map_tutorials.egg-info/SOURCES.txt'
+[5.432s] reading manifest file 'map_tutorials.egg-info/SOURCES.txt'
+[5.435s] writing manifest file 'map_tutorials.egg-info/SOURCES.txt'
+[5.441s] running build_ext
+[5.442s] Creating /home/psinha/ros2/packages/map/install/map_tutorials/lib/python3.10/site-packages/map-tutorials.egg-link (link to .)
+[5.445s] Installing map_node script to /home/psinha/ros2/packages/map/install/map_tutorials/lib/map_tutorials
+[5.446s] 
+[5.447s] Installed /home/psinha/ros2/packages/map/build/map_tutorials
+[5.447s] running symlink_data
+[5.448s] creating /home/psinha/ros2/packages/map/install/map_tutorials/share/ament_index
+[5.448s] creating /home/psinha/ros2/packages/map/install/map_tutorials/share/ament_index/resource_index
+[5.449s] creating /home/psinha/ros2/packages/map/install/map_tutorials/share/ament_index/resource_index/packages
+[5.449s] symbolically linking /home/psinha/ros2/packages/map/build/map_tutorials/resource/map_tutorials -> /home/psinha/ros2/packages/map/install/map_tutorials/share/ament_index/resource_index/packages
+[5.450s] symbolically linking /home/psinha/ros2/packages/map/build/map_tutorials/package.xml -> /home/psinha/ros2/packages/map/install/map_tutorials/share/map_tutorials
+[5.580s] Invoked command in '/home/psinha/ros2/packages/map/build/map_tutorials' returned '0': PYTHONPATH=/home/psinha/ros2/packages/map/build/map_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psinha/ros2/packages/map/install/map_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/psinha/ros2/packages/map/build/map_tutorials/build --no-deps symlink_data

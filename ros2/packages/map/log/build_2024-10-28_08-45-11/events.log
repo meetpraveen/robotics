@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.001635] (map_tutorials) JobQueued: {'identifier': 'map_tutorials', 'dependencies': OrderedDict()}
+[0.002125] (map_tutorials) JobStarted: {'identifier': 'map_tutorials'}
+[0.098663] (-) TimerEvent: {}
+[0.199274] (-) TimerEvent: {}
+[0.299943] (-) TimerEvent: {}
+[0.400551] (-) TimerEvent: {}
+[0.501338] (-) TimerEvent: {}
+[0.601918] (-) TimerEvent: {}
+[0.702493] (-) TimerEvent: {}
+[0.803111] (-) TimerEvent: {}
+[0.903699] (-) TimerEvent: {}
+[1.004290] (-) TimerEvent: {}
+[1.104911] (-) TimerEvent: {}
+[1.205590] (-) TimerEvent: {}
+[1.306434] (-) TimerEvent: {}
+[1.407091] (-) TimerEvent: {}
+[1.507831] (-) TimerEvent: {}
+[1.608496] (-) TimerEvent: {}
+[1.709134] (-) TimerEvent: {}
+[1.809708] (-) TimerEvent: {}
+[1.910298] (-) TimerEvent: {}
+[2.010941] (-) TimerEvent: {}
+[2.111505] (-) TimerEvent: {}
+[2.212070] (-) TimerEvent: {}
+[2.312705] (-) TimerEvent: {}
+[2.413355] (-) TimerEvent: {}
+[2.513965] (-) TimerEvent: {}
+[2.614562] (-) TimerEvent: {}
+[2.715217] (-) TimerEvent: {}
+[2.815985] (-) TimerEvent: {}
+[2.916755] (-) TimerEvent: {}
+[3.017509] (-) TimerEvent: {}
+[3.118188] (-) TimerEvent: {}
+[3.218916] (-) TimerEvent: {}
+[3.319740] (-) TimerEvent: {}
+[3.411831] (map_tutorials) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/psinha/ros2/packages/map/build/map_tutorials/build', '--no-deps', 'symlink_data'], 'cwd': '/home/psinha/ros2/packages/map/build/map_tutorials', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'psinha', 'SSH_CLIENT': '10.0.0.24 51803 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/psinha', 'OLDPWD': '/home/psinha/ros2/packages/map/src', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'LC_TERMINAL_VERSION': '3.5.5', 'ROS_DISTRO': 'humble', 'LOGNAME': 'psinha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/psinha/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_TERMINAL': 'iTerm2', 'PWD': '/home/psinha/ros2/packages/map/build/map_tutorials', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.0.0.24 51803 10.0.0.62 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/psinha/ros2/packages/map/build/map_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/psinha/ros2/packages/map/install/map_tutorials/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[3.424583] (-) TimerEvent: {}
+[3.526138] (-) TimerEvent: {}
+[3.626765] (-) TimerEvent: {}
+[3.727433] (-) TimerEvent: {}
+[3.828139] (-) TimerEvent: {}
+[3.928722] (-) TimerEvent: {}
+[4.029305] (-) TimerEvent: {}
+[4.129915] (-) TimerEvent: {}
+[4.230480] (-) TimerEvent: {}
+[4.331080] (-) TimerEvent: {}
+[4.431638] (-) TimerEvent: {}
+[4.532235] (-) TimerEvent: {}
+[4.608248] (map_tutorials) StdoutLine: {'line': b'running develop\n'}
+[4.612558] (map_tutorials) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[4.613269] (map_tutorials) StderrLine: {'line': b'  warnings.warn(\n'}
+[4.632460] (-) TimerEvent: {}
+[4.733140] (-) TimerEvent: {}
+[4.833714] (-) TimerEvent: {}
+[4.934293] (-) TimerEvent: {}
+[5.034918] (-) TimerEvent: {}
+[5.135839] (-) TimerEvent: {}
+[5.236416] (-) TimerEvent: {}
+[5.337055] (-) TimerEvent: {}
+[5.423228] (map_tutorials) StdoutLine: {'line': b'running egg_info\n'}
+[5.423785] (map_tutorials) StdoutLine: {'line': b'creating map_tutorials.egg-info\n'}
+[5.424263] (map_tutorials) StdoutLine: {'line': b'writing map_tutorials.egg-info/PKG-INFO\n'}
+[5.425313] (map_tutorials) StdoutLine: {'line': b'writing dependency_links to map_tutorials.egg-info/dependency_links.txt\n'}
+[5.425839] (map_tutorials) StdoutLine: {'line': b'writing entry points to map_tutorials.egg-info/entry_points.txt\n'}
+[5.426408] (map_tutorials) StdoutLine: {'line': b'writing requirements to map_tutorials.egg-info/requires.txt\n'}
+[5.426915] (map_tutorials) StdoutLine: {'line': b'writing top-level names to map_tutorials.egg-info/top_level.txt\n'}
+[5.427783] (map_tutorials) StdoutLine: {'line': b"writing manifest file 'map_tutorials.egg-info/SOURCES.txt'\n"}
+[5.434438] (map_tutorials) StdoutLine: {'line': b"reading manifest file 'map_tutorials.egg-info/SOURCES.txt'\n"}
+[5.437085] (map_tutorials) StdoutLine: {'line': b"writing manifest file 'map_tutorials.egg-info/SOURCES.txt'\n"}
+[5.437560] (-) TimerEvent: {}
+[5.442667] (map_tutorials) StdoutLine: {'line': b'running build_ext\n'}
+[5.443670] (map_tutorials) StdoutLine: {'line': b'Creating /home/psinha/ros2/packages/map/install/map_tutorials/lib/python3.10/site-packages/map-tutorials.egg-link (link to .)\n'}
+[5.446861] (map_tutorials) StdoutLine: {'line': b'Installing map_node script to /home/psinha/ros2/packages/map/install/map_tutorials/lib/map_tutorials\n'}
+[5.448055] (map_tutorials) StdoutLine: {'line': b'\n'}
+[5.448591] (map_tutorials) StdoutLine: {'line': b'Installed /home/psinha/ros2/packages/map/build/map_tutorials\n'}
+[5.449198] (map_tutorials) StdoutLine: {'line': b'running symlink_data\n'}
+[5.449635] (map_tutorials) StdoutLine: {'line': b'creating /home/psinha/ros2/packages/map/install/map_tutorials/share/ament_index\n'}
+[5.450070] (map_tutorials) StdoutLine: {'line': b'creating /home/psinha/ros2/packages/map/install/map_tutorials/share/ament_index/resource_index\n'}
+[5.450498] (map_tutorials) StdoutLine: {'line': b'creating /home/psinha/ros2/packages/map/install/map_tutorials/share/ament_index/resource_index/packages\n'}
+[5.451106] (map_tutorials) StdoutLine: {'line': b'symbolically linking /home/psinha/ros2/packages/map/build/map_tutorials/resource/map_tutorials -> /home/psinha/ros2/packages/map/install/map_tutorials/share/ament_index/resource_index/packages\n'}
+[5.451921] (map_tutorials) StdoutLine: {'line': b'symbolically linking /home/psinha/ros2/packages/map/build/map_tutorials/package.xml -> /home/psinha/ros2/packages/map/install/map_tutorials/share/map_tutorials\n'}
+[5.538030] (-) TimerEvent: {}
+[5.580462] (map_tutorials) CommandEnded: {'returncode': 0}
+[5.639461] (-) TimerEvent: {}
+[5.658416] (map_tutorials) JobEnded: {'identifier': 'map_tutorials', 'rc': 0}
+[5.661147] (-) EventReactorShutdown: {}
