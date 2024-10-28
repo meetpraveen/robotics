@@ -2,7 +2,7 @@
 Mashup of rpi, lego spike and irobot create ros2
 
 # RPI setup
-An ubuntu 20.04 based image with iRobot ros2 and build HAT is etched into the [image file](image/rpi_lego_irobot_ubuntu-22.04.5_ros-humble.dmg)
+An ubuntu 20.04 based image with iRobot ros2 and build HAT is etched into the [image file](image/rpi_lego_irobot_ubuntu-22.04.5_ros-humble.img)
 
 After etching using tools like [Raspberry Pi Imager](https://www.raspberrypi.com/news/raspberry-pi-imager-imaging-utility/), you need to change your wifi settings. Follow these steps -
 
