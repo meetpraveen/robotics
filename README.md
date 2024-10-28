@@ -40,3 +40,7 @@ if __name__ == '__main__':
     main()
 ```
 
+# Creating a map
+
+TODO: Add the mapper logic to map node
+Ref - [TurtleBot Mapper](https://roboticsbackend.com/ros2-nav2-generate-a-map-with-slam_toolbox/)
