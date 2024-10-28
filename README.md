@@ -24,7 +24,7 @@ motor_a.run_for_seconds(5)
 
 # iRobot ros2 program
 
-Turtlebot documents works with any custom mod of iRobot create with rpi. Please refer to their examples and tutorials [here](https://turtlebot.github.io/turtlebot4-user-manual/tutorials/first_node_python.html). The steps below is taken from there
+Turtlebot documents works with any custom mod of iRobot create with rpi. Please refer to their examples and tutorials [here](https://turtlebot.github.io/turtlebot4-user-manual/tutorials/first_node_python.html). The steps below is taken from there. For basic learning samples, refer to [iRobot Education online IDE](https://python.irobot.com/)
 
 ## Creating the map package
 
