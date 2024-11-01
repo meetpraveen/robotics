@@ -107,5 +107,5 @@ ros2 topic info /interface_buttons --verbose
 ```
 
 ```bash
-ros2 run map_tutorials map_nod
+ros2 run map_tutorials map_node
 ```
